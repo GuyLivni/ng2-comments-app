@@ -1,0 +1,6 @@
+<div class="comment-list">
+	<comment-search (update)="emailAdd = $event"></comment-search>
+	<comment-item [comment]="comment"
+				  *ngFor="let comment of comments | async | searchFilter:emailAdd">
+	</comment-item>
+</div>

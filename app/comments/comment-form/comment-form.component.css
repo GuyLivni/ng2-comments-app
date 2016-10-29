@@ -1,0 +1,18 @@
+textarea {
+	resize: none;
+	height: 80px;
+}
+
+.comment-form{
+	background-color: #eee;
+	padding: 20px;
+	margin-bottom: 0;
+}
+
+.comment-form .form-control{
+	border-radius: 0;
+}
+
+.comment-form input{
+	-webkit-box-shadow: 0 0 0px 1000px white inset;
+}

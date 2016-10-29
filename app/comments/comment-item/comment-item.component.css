@@ -1,0 +1,13 @@
+.comment-item{
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+.comment-wrapper{
+	margin-left: 10px;
+}
+
+.comment-item .comment-email{
+	font-weight: bold;
+}
