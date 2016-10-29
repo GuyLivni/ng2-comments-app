@@ -15,8 +15,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'comment-app',
-            template: "<comments-container class=\"comments-container\"></comments-container>",
-            styleUrls: ['./app/app.component.css']
+            template: "<comments-container class=\"comments-container\"></comments-container>"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

@@ -1,22 +1,22 @@
 <form class="comment-form" #commentForm="ngForm" (ngSubmit)="add($event)">
 	<div class="form-group">
-		<input type="email" class="form-control" #email="ngModel"
+		<input type="email" class="form-input" #email="ngModel"
 			   placeholder="Email"
 			   required
 			   [(ngModel)]="model.email" name="email" >
-		<div [hidden]="email.valid || email.pristine" class="alert alert-danger">
+		<div [hidden]="email.valid || email.pristine" class="form-alert">
 			Email is required
 		</div>
 	</div>
 	<div class="form-group">
-		<textarea class="form-control" #message="ngModel"
+		<textarea class="form-message" #message="ngModel"
 				  placeholder="Message"
 				  required
 				  [(ngModel)]="model.message" name="message">
 		</textarea>
-		<div [hidden]="message.valid || message.pristine" class="alert alert-danger">
+		<div [hidden]="message.valid || message.pristine" class="form-alert">
 			Message is required
 		</div>
 	</div>
-	<button class="btn btn-primary pull-right" type="submit" >Submit</button>
+	<button class="form-submit" type="submit" >Submit</button>
 </form>

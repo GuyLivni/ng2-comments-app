@@ -1,5 +1,4 @@
 <div class="search-box">
-	<!--<input id="search-input" class="form-control" #input type="text" (input)="update.emit(input.value)" placeholder="Filter"/>-->
-	<input id="search-input" [(ngModel)]="inputValue" class="form-control" type="text"  placeholder="Filter"/>
-	<label for="search-input" class="glyphicon glyphicon-search" rel="tooltip" title="email"></label>
+	<input id="search-input" [(ngModel)]="inputValue" type="text"  placeholder="Filter"/>
+	<label for="search-input" class="search-glyph fa fa-search" rel="tooltip" title="email"></label>
 </div>

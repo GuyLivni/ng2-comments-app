@@ -7,6 +7,8 @@ textarea {
 	background-color: #eee;
 	padding: 20px;
 	margin-bottom: 0;
+	display: flex;
+	flex-direction: column;
 }
 
 .comment-form .form-control{
@@ -15,4 +17,40 @@ textarea {
 
 .comment-form input{
 	-webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+.form-input, .form-message{
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+
+.form-submit{
+	display: inline-block;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	margin-left: auto;
+	background-color: #1993c3;
+	color: white;
+}
+
+.form-alert{
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid #ebccd1;
+	color: #a94442;
+	background-color: #f2dede;
 }
