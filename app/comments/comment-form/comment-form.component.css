@@ -9,6 +9,7 @@ textarea {
 	margin-bottom: 0;
 	display: flex;
 	flex-direction: column;
+	width: 350px;
 }
 
 .comment-form .form-control{
@@ -42,7 +43,7 @@ textarea {
 	cursor: pointer;
 	border: 1px solid transparent;
 	border-radius: 4px;
-	margin-left: auto;
+	align-self: flex-end;
 	background-color: #1993c3;
 	color: white;
 }
